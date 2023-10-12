@@ -63,7 +63,7 @@ body {
 #navbar li {
   list-style: none;
   padding: 0 20px;
-  position: relative;
+  position: relative; 
 }
 
 #navbar li a {
@@ -123,3 +123,18 @@ body {
     font-weight: 600;
     font-size: 15px;
 }
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+ 
