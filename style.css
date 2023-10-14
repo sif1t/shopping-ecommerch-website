@@ -152,3 +152,20 @@ body {
     color: #088178;
     background-color: #fddde4;
 }
+#feature .fe-box:nth-child(2) h6 {
+    background-color: rgb(232, 191, 248);
+}
+#feature .fe-box:nth-child(3) h6 {
+    background-color: rgb(201, 228, 209);
+}
+#feature .fe-box:nth-child(4) h6 {
+    background-color: rgb(195, 248, 252);
+}
+#feature .fe-box:nth-child(5) h6 {
+    background-color: rgb(254, 227, 255);
+}
+#feature .fe-box:nth-child(6) h6 {
+    background-color: rgb(209, 196, 154);
+}
+
+
