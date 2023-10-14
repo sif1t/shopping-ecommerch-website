@@ -282,6 +282,23 @@ body {
  /* baner section end */
 
  /* baner section  1 start */
+ #sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ #sm-banner .banner-box {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner/b17.jpg);
+    min-width: 850px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+ }
 
 
 
