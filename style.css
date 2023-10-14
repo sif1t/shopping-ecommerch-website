@@ -37,6 +37,19 @@ p{
 .section-m1 {
     margin: 40px 0;
 }
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+
+}
 body {
     width: 100%;
 }
@@ -260,10 +273,15 @@ body {
     padding: 10px 0;
  }
  #banner h2 span{
-    color: #fff;
-    font-size: 31px;
-    padding: 10px 0;
+    color: #11ddf8;
  }
+
+ #banner button:hover {
+    background-color: #11DDF8;
+ }
+ /* baner section end */
+
+ /* baner section  1 start */
 
 
 
