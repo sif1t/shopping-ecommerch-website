@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+/* global code  */
 *{
     margin: 0;
     padding: 0;
@@ -50,10 +50,23 @@ button.normal {
     transition: 0.2s;
 
 }
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+
+}
 body {
     width: 100%;
 }
-
+/* global code end */
 /* header section start  */
 #header {
     display:  flex;
@@ -249,7 +262,7 @@ body {
  }
   /* feature section 1 end  */
       
-   /* baner section start */
+   /* baner section start 1 */
  #banner {
     display: flex;
     flex-direction:column;
@@ -277,11 +290,11 @@ body {
  }
 
  #banner button:hover {
-    background-color: #11DDF8;
+    background: linear-gradient(#00e1ff, #098078);
  }
- /* baner section end */
+ /* baner section  1 end */
 
- /* baner section  1 start */
+ /* baner section  2 start */
  #sm-banner{
     display: flex;
     justify-content: space-between;
@@ -293,12 +306,58 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(img/banner/b17.jpg);
-    min-width: 850px;
+    min-width:570px;
     height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
  }
+
+ #sm-banner .banner-box2{
+    background-image: url(img/banner/b10.jpg); 
+    min-width:570px;
+    margin-top: 10px;
+    height: 50vh;
+ }
+
+ #sm-banner h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300
+ }
+ #sm-banner h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800
+ }
+ #sm-banner span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;  
+ }
+
+ #sm-banner .banner-box:hover button {
+    background: linear-gradient(#00e1ff, #098078);
+    border: 1px solid #11ddf8;
+ }
+/* baner section  2 end */
+
+/* baner section  3 start */
+    #banner3 .banner-box {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(img/banner/b7.jpg);
+        min-width:30%;
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        margin-bottom: 20px;
+     }
+/* baner section  3 end */
 
 
 
