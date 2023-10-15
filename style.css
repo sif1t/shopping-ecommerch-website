@@ -344,6 +344,15 @@ body {
 /* baner section  2 end */
 
 /* baner section  3 start */
+
+    #banner3 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 80px;
+    }
+
+
     #banner3 .banner-box {
         display: flex;
         flex-direction:column;
@@ -357,6 +366,26 @@ body {
         padding: 20px;
         margin-bottom: 20px;
      }
+
+     #banner3 .banner-box2{
+        background-image: url(img/banner/b4.jpg);
+     }
+     #banner3 .banner-box3{
+        background-image: url(img/banner/b18.jpg);
+     }
+    
+
+   
+ #banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+ }
+ #banner3 h3 {
+    color: #11ddf8;
+    font-weight: 800;
+    font-size: 15px;
+ }
 /* baner section  3 end */
 
 
