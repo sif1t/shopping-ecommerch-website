@@ -388,7 +388,55 @@ body {
  }
 /* baner section  3 end */
 
+/* newsletter section start */
+ #newslatter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+ }
 
+ #newslatter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+ }
+ #newslatter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+ }
+ #newslatter p span {
+    color: #FFAC38;
+ }
+
+ #newslatter .form {
+    display: flex;
+    width: 40%;
+ }
+ #newslatter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+ }
+ #newslatter button{
+    background: linear-gradient(#00e1ff, #098078);
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+ }
+/* newsletter section end */
 
 /* Home page  end */
 
