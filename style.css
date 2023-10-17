@@ -757,6 +757,18 @@ footer .copyright {
    text-align: start;
 }
 
+/* single product  */
+#prodetails {
+   display: flex;
+   flex-direction: column;
+}
+#prodetails .single-pro-img {
+   width: 100%;
+   margin-right: 0px;
+}
+#prodetails .single-pro-details {
+   width: 100%;
+}
 
 }
 
