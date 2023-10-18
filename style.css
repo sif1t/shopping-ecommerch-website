@@ -544,7 +544,7 @@ body {
 }
 /* shop page end */
 
-/* single product  */
+/* single product  details */
 #prodetails{
    display: flex;
    margin-top: 20px;
@@ -604,8 +604,17 @@ body {
 #prodetails .single-pro-details span{
    line-height: 25px;
 }
-/* single product end */
+/* single product details end */
+  
+/* blog page satrt  */
 
+#page-header.blog-header{
+    background-image: url(img/banner/b19.jpg);
+ } 
+
+ #blog{
+   padding: 150px 150px 0 150px;
+ }
 
 
 
