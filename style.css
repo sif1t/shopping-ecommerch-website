@@ -509,7 +509,7 @@ body {
 
 /* shop page  */
 #page-header{
-   background-image: url(img/banner/b1.jpg);
+   background-image: url(img/banner/banner.jpg);
    width: 100%;
    height: 40vh;
   background-size: cover;
@@ -522,7 +522,7 @@ body {
 
 #page-header h2,
 #page-header p {
-   color: #fff;
+   color: #000;
 }
 
 #pagination{
@@ -615,6 +615,66 @@ body {
  #blog{
    padding: 150px 150px 0 150px;
  }
+
+ #blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px ;
+ }
+
+ #blog .blog-img{
+   width: 50%;
+   margin-right: 40px;
+ }
+
+ #blog img{
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+ }
+ #blog .blog-details {
+   width: 50%; 
+ }
+ #blog .blog-details a{
+   text-decoration: none;
+   font-size: 11px;
+   color: #000;
+   font-weight: 700;
+   position: relative;
+   transition: 0.4s;
+ }
+
+ #blog .blog-details a::after {
+   content: "";
+   width: 50px;
+   height: 1px;
+   background-color: #000;
+   position: absolute;
+   top: 4px;
+   right: -60px;
+ }
+
+ #blog .blog-details a:hover{
+   color: #11DDF8;
+ }
+
+ #blog .blog-details a:hover:after{
+   background-color: #11DDF8;
+ }
+
+ #blog .blog-box h1 {
+   position: absolute;
+   top: -40px;
+   left: 0;
+   font-size: 70px;
+   font-weight: 700;
+   color: #c9cbce;
+   z-index: -9;
+ }
+
+ 
 
 
 
@@ -778,6 +838,9 @@ footer .copyright {
 #prodetails .single-pro-details {
    width: 100%;
 }
+
+/* blog page  */
+
 
 }
 
