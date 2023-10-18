@@ -606,7 +606,7 @@ body {
 }
 /* single product details end */
   
-/* blog page satrt  */
+/* blog page start  */
 
 #page-header.blog-header{
     background-image: url(img/banner/b19.jpg);
@@ -674,8 +674,12 @@ body {
    z-index: -9;
  }
 
- 
+/* blog page end */
 
+/* about page  */
+#page-header.about-header{
+    background-image: url(img/about/banner.png);
+}
 
 
 
