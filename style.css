@@ -710,6 +710,25 @@ body {
   border-radius: 20px;
 }
 
+/* about page end  */
+
+/* contact page satrt  */
+#contact-details{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#contact-details .details{
+   width: 40%;
+}
+#contact-details .details span{
+   
+}
+
+
+/* contact page end  */
+
 
 
 /* start media query  */
